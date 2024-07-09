@@ -1,0 +1,130 @@
+/* General body styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url("bg.jpeg");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container styling */
+.container, .question-container, .image-container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 100%; 
+    max-width: 750px;
+}
+
+/* Heading styles */
+h1, h2 {    
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Heading 1 specific styling */
+h1 {
+    font-size: 2.5em;
+}
+
+/* Heading 2 specific styling */
+h2 {
+    font-size: 1.5em;
+}
+
+ol{
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+/* Button and input field styling */
+button, input[type="submit"] {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background: #8d0303;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover, input[type="submit"]:hover {
+    background: #ff9966;
+}
+
+/* Input text field styling */
+input[type="text"] {
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: calc(100% - 40px); /* Full width minus padding */
+    box-sizing: border-box;
+}
+
+/* Image container styling */
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Image styling */
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    opacity: 1; /* Ensure the image is fully opaque */
+}
+
+/* Key styling and positioning */
+.key {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    position: absolute; /* Position keys absolutely relative to the image */
+    transition: transform 0.2s;
+}
+
+.key:hover {
+    transform: scale(1.1);
+}
+
+.key1 { top: 30%; left: 20%; }
+.key2 { top: 20%; left: 50%; }
+.key3 { top: 80%; left: 63%; }
+.key4 { top: 65%; left: 30%; }
+.key5 { top: 50%; left: 80%; }
+
+.key2 {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute; /* Position keys absolutely relative to the image */
+}
+.key21 { top: 45%; left: 20%; }
+.key22 { top: 40%; left: 40%; }
+.key23 { top: 60%; left: 50%; }
+.key24 { top: 50%; left: 30%; }
+.key25 { top: 70%; left: 50%; }
+
+.key3 {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute; /* Position keys absolutely relative to the image */
+}
+.key31 { top: 50%; left: 20%; }
+.key32 { top: 40%; left: 40%; }
+.key33 { top: 60%; left: 100%; }
+.key34 { top: 50%; left: 30%; }
+.key35 { top: 50%; left: 50%; }
+

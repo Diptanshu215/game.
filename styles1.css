@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container, .question-container, .image-container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+ol{
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+button, input[type="submit"], .key {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background: #ff5e62;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover, input[type="submit"]:hover, .key:hover {
+    background: #ff9966;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    /* Ensure the image is not faded */
+    opacity: 1; /* Ensure the image is fully opaque */
+}
+
+/* Keys positioned directly over the image */
+.key {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute; /* Position keys absolutely relative to the image */
+}
+
+.key1 { top: 30%; left: 20%; }
+.key2 { top: 35%; left: 40%; }
+.key3 { top: 30%; left: 80%; }
+.key4 { top: 85%; left: 100%; }
+.key5 { top: 70%; left: 50%; }
+
+.key2 {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute; /* Position keys absolutely relative to the image */
+}
+
+.key1 { top: 30%; left: 20%; }
+.key2 { top: 35%; left: 40%; }
+.key3 { top: 30%; left: 80%; }
+.key4 { top: 85%; left: 30%; }
+.key5 { top: 70%; left: 50%; }
+
+.key3 {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute; /* Position keys absolutely relative to the image */
+}
+
+.key1 { top: 30%; left: 20%; }
+.key2 { top: 35%; left: 40%; }
+.key3 { top: 30%; left: 80%; }
+.key4 { top: 85%; left: 30%; }
+.key5 { top: 70%; left: 50%; }
+
